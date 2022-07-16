@@ -29,8 +29,8 @@ $(call inherit-product, device/realme/RMX1801/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Blaze Official Stuff
-BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := Luffy
+
+
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 #Device identifier
