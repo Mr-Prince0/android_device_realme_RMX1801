@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Arrow stuff
-$(call inherit-product, vendor/blaze/config/common.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Inherit from Realme RMX1801
@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Blaze Official Stuff
 
-
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 #Device identifier
