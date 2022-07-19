@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Arrow stuff
 $(call inherit-product, vendor/dot/config/common.mk)
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+#$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
